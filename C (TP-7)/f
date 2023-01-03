@@ -1,0 +1,22 @@
+for(i=0;i<n-2;i++){
+
+
+
+  x=i;
+  for(j=i+1;j<n-1;j++){
+    if (T[i] > T[j]){
+      x = j
+     }
+    if (x != i)
+      tmp = T[i]
+      T[i] = T[x]
+      T[x] = tmp
+    }
+  }
+
+
+// affichage
+ecrire("Tableau triée par ordre croissant")
+for(i=0;i<n;i++){
+
+}

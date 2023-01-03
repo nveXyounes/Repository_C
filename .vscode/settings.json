@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "correction_test_2.C": "cpp",
+        "string.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
