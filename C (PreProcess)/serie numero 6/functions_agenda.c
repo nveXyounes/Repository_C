@@ -29,7 +29,26 @@ void creation(TL *T,int *n){
       }
 }
 void ajoute(TL *T,int *n){
-  int i;
+  int i=0;
+  while(i==n){
+    i++;
+  }
+   (T+i)->nom=malloc(10);
+      printf("saisie le nom : ");
+      scanf("%s",(T+*n)->nom);
+    (T+*n)->indi=malloc(5);
+      printf("saisie l'indiquation : ");
+      scanf("%s",(T+*n)->indi);
+    (T+*n)->num_tele=malloc(20);
+      printf("saisie le numero de telephone : ");
+      scanf("%s",(T+*n)->num_tele);
+      printf("saisie la date ");
+      printf("jour : ");
+      scanf("%d",&(T+*n)->d.j);
+      printf("mois : ");
+      scanf("%d",&(T+*n)->d.m);
+      printf("annee : ");
+      scanf("%d",&(T+*n)->d.a);
 }
 void affichage(TL *T,int *n){
     int i;
