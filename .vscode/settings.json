@@ -1,7 +1,11 @@
 {
     "files.associations": {
         "correction_test_2.C": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

@@ -1,0 +1,1 @@
+cout<<setprecision(2)<<fixed<<setfill('*')<<left;
