@@ -1,21 +1,21 @@
 #include <iostream>
 
  using namespace std;
-   
+
 
  class compte_B{
-    
+
     private:
 
      string code;
      float solde;
-    
+
 
     public:
 
     void create(){
         cout<<"Saisie le code : ";
-        cin>>code; 
+        cin>>code;
         cout<<"Saisie le solde : ";
         cin>>solde;
     }
@@ -26,15 +26,15 @@
 
     }
     void retirer(double S){
-         
+
         cout<<"Entrer une somme pour retirer : "; cin>>S;
          if(solde > S){
 
-             solde = solde - S;   
+             solde = solde - S;
         }else{
          cout<<"You don't have enough money"<<endl;
         }
-    } 
+    }
     void deposer(double S){
 
        cout<<"Entrer une somme pour deposer : "; cin>>S;
@@ -45,7 +45,7 @@
  };
 
 
-   
+
   int main(){
 
    compte_B X;

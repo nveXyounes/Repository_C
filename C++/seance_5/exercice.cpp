@@ -15,14 +15,14 @@
         cout<<"saisie le poids : ";
         cin>>poids;
     }
-    void modify_matricule(string nv_m){
+    void set_matricule(string nv_m){
 
         cout<<"saisie une nouvelle matricule : "; 
         cin>>nv_m;
 
         matricule = nv_m;
     }
-    void modify_poids(int nv_p){
+    void set_poids(int nv_p){
 
         cout<<"saisie une nouvelle poids : "; 
         cin>>nv_p;
